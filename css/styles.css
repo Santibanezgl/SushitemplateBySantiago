@@ -1,0 +1,90 @@
+/**** FONTS ***/
+
+@font-face{
+    font-family: "Helgoland";
+    src: url(../assets/fonts/Helgoland.otf);
+}
+
+@font-face{
+    font-family:"MinSans";
+    src: url(../assets/fonts/MinSans-Regular.ttf);
+}
+
+h1{
+    font-family: "Helgoland";
+    font-size: 5rem !important;
+    color: white !important;
+}
+
+.parrafoLetra{
+    font-family: "Helgoland";
+    font-size: 1rem !important;
+    color: white !important;
+}
+
+.headerLetra{
+    font-family: "Helgoland";
+    font-size: 2rem !important;
+    color: white !important;
+}
+
+.itemsheaderLetra{
+    font-family: "MinSans";
+    font-size: 1rem !important;
+    color: white !important;
+}
+
+/* HEADER */
+.color{
+    background-color: rgb(1,16,19) !important;
+}
+/* BODY */
+body{
+    overflow-x: hidden;
+}
+/* section 1 codigos */
+.section1{
+    background-image: url(../assets/sushisection1.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.divuno{
+    width: 100vw;
+    height: 100vh;
+}
+
+/* section 2 codigos */
+.section2{
+    width: 100vw;
+    height: 95vh;
+    background-color: rgb(1,16,19) !important;
+}
+
+.logosection2{
+    background-image: url(../assets/sushi\ loguitoi.png);
+    background-position: center;
+    background-size: cover;
+    width: 150px;
+    height: 100px;
+}
+
+/* section 3 codigos */
+
+.section3{
+    width: 100vw;
+    height: 35vh;
+}
+
+/* footer codigo */
+
+footer{
+    background-color: rgb(0, 255, 242);
+}
+
+.footerpics{
+    width: 30px;
+    height: 30px;
+}
