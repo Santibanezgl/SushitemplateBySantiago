@@ -28,6 +28,16 @@ h1{
     color: white !important;
 }
 
+.section2font{
+    font-family: "Helgoland";
+    font-size: 3rem !important;
+    color: white !important;
+}
+.section3font{
+    font-family: "Helgoland";
+    font-size: 2rem !important;
+    color: white !important;
+}
 .itemsheaderLetra{
     font-family: "MinSans";
     font-size: 1rem !important;
@@ -51,16 +61,34 @@ body{
   height: 100vh;
 }
 
-.divuno{
+/* section 1 PC */
+
+.section1pc{
+    background-image: url(../assets/chef\ nikkei.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/* section 2 PC*/
+.section2pc{
+    background-image: url(../assets/section3sushi.jpg);
+    background-position: center;
+    background-size: cover;
     width: 100vw;
-    height: 100vh;
+}
+
+/*section 3 PC*/
+.section3pc{
+    background-image: url(../assets/mandala\ section.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
 }
 
 /* section 2 codigos */
 .section2{
-    width: 100vw;
-    height: 95vh;
     background-color: rgb(1,16,19) !important;
+    width: 100vw;
 }
 
 .logosection2{
@@ -76,12 +104,13 @@ body{
 .section3{
     width: 100vw;
     height: 35vh;
+    background-color: rgb(29,31,33);
 }
 
 /* footer codigo */
 
 footer{
-    background-color: rgb(0, 255, 242);
+    background-color: rgb(29,31,33);
 }
 
 .footerpics{
