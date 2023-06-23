@@ -46,6 +46,29 @@ h1{
     color: white !important;
 }
 
+
+.letrafooter{
+    font-family: "MiniSans";
+    font-size: 1rem !important;
+    color: white !important;
+    letter-spacing: 0.5em;
+    margin-top: 2.3em;
+}
+
+.letrafooter2{
+    font-family: "MiniSans";
+    font-size: 1.7rem !important;
+    color: white !important;
+    margin-top: 2em;
+}
+
+.letrafooter3{
+    font-family: "MiniSans";
+    font-size: 1.7rem !important;
+    color: white !important;
+    margin-top: 0.5em;
+    margin-bottom: 1.6em;
+}
 .headerLetra{
     font-family: "Helgoland";
     font-size: 2rem !important;
@@ -63,6 +86,7 @@ h1{
     font-family: "Helgoland";
     font-size: 2rem !important;
     color: white !important;
+    margin-top: 0.8em;
 }
 .itemsheaderLetra{
     font-family: "MinSans";
@@ -81,6 +105,13 @@ h1{
     text-shadow: 2px 2px 4px #000;
     margin-top: 8em;
     letter-spacing: 5px;
+}
+
+.formmfont{
+    font-family: "Helgoland";
+    font-size: 2rem !important;
+    color: white !important;
+    margin-top: 2.2em;
 }
 
 /* HEADER */
@@ -174,7 +205,34 @@ footer{
     background-color: rgb(29,31,33);
 }
 
-.footerpics{
-    width: 2.5em;
-    height: 2.5em;
+
+i {
+    font-size: 2.5rem;
 }
+
+.fa-brands:hover {
+    transition: all 0.3s;
+    animation: heartbeat 1s infinite;
+  }
+
+  @keyframes heartbeat {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); }
+  }
+
+  .divform{
+    width: 70vh !important;
+  }
+
+  .formestilo{
+    background-color: rgb(29,31,33) !important;
+    border: solid !important;
+    border-color: rgb(70, 70, 70) !important;
+  }
+
+  ::placeholder{
+    font-family: "MiniSans";
+    font-size: 0.7rem !important;
+    color: white !important;
+  }
