@@ -1,5 +1,9 @@
 /**** FONTS ***/
-
+html, body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 .form-control:focus {
     box-shadow: none !important;
     border-color: inherit !important;
