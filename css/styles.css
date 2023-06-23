@@ -51,13 +51,13 @@ h1{
     font-family: "MiniSans";
     font-size: 1rem !important;
     color: white !important;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.1em;
     margin-top: 2.3em;
 }
 
 .letrafooter2{
     font-family: "MiniSans";
-    font-size: 1.7rem !important;
+    font-size: 1.5rem !important;
     color: white !important;
     margin-top: 2em;
 }
