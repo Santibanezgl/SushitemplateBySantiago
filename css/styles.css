@@ -1,5 +1,15 @@
 /**** FONTS ***/
 
+.form-control:focus {
+    box-shadow: none !important;
+    border-color: inherit !important;
+  }
+
+  .navbar-toggler:focus {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+
 @font-face{
     font-family: "Helgoland";
     src: url(../assets/fonts/Helgoland.otf);
@@ -198,6 +208,7 @@ body{
     height: 60vh;
     filter: brightness(0.9);
 }
+
 
 /* footer codigo */
 
