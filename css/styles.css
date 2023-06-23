@@ -12,12 +12,36 @@
 
 h1{
     font-family: "Helgoland";
-    font-size: 5rem !important;
+    font-size: 6rem !important;
     color: white !important;
 }
 
-.parrafoLetra{
+.menuletter{
+        font-family: "Helgoland";
+        font-size: 3rem !important;
+        color: white !important;
+        margin-top: 2em;
+        text-shadow: 1px 1px 2px #000;
+        margin-bottom: 2em;
+}
+
+.flavorletter{
     font-family: "Helgoland";
+    font-size: 5rem !important;
+    color: white !important;
+    text-shadow: 2px 2px 4px #000;
+    line-height: 0.8;
+}
+
+.cateringletter{
+    font-family: "Helgoland";
+    font-size: 3.5rem !important;
+    color: white !important;
+    margin-top: 2em;
+    text-shadow: 2px 2px 4px #000;
+}
+.parrafoLetra{
+    font-family: "MiniSans";
     font-size: 1rem !important;
     color: white !important;
 }
@@ -32,6 +56,8 @@ h1{
     font-family: "Helgoland";
     font-size: 3rem !important;
     color: white !important;
+    line-height: 0.8;
+    margin-top: 0.5em;
 }
 .section3font{
     font-family: "Helgoland";
@@ -40,8 +66,21 @@ h1{
 }
 .itemsheaderLetra{
     font-family: "MinSans";
-    font-size: 1rem !important;
+    font-size: 0.8rem !important;
+    color: rgb(146, 146, 146) !important;
+}
+
+.itemsheaderLetra:hover{
+    color: rgb(187, 187, 187) !important;
+}
+
+.finaletter{
+    font-family: "Helgoland";
+    font-size: 1.5rem !important;
     color: white !important;
+    text-shadow: 2px 2px 4px #000;
+    margin-top: 8em;
+    letter-spacing: 5px;
 }
 
 /* HEADER */
@@ -59,6 +98,7 @@ body{
   background-size: cover;
   width: 100vw;
   height: 100vh;
+  filter: brightness(0.9);
 }
 
 /* section 1 PC */
@@ -67,14 +107,15 @@ body{
     background-image: url(../assets/chef\ nikkei.jpg);
     background-position: center;
     background-size: cover;
+    filter: brightness(0.9);
 }
 
 /* section 2 PC*/
 .section2pc{
-    background-image: url(../assets/section3sushi.jpg);
+    background-image: url(../assets/sushiblacko.jpg);
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    filter: brightness(0.9);
 }
 
 /*section 3 PC*/
@@ -82,14 +123,16 @@ body{
     background-image: url(../assets/mandala\ section.jpg);
     background-position: center;
     background-size: cover;
-    width: 100vw;
+    filter: brightness(0.9);
 }
 
+.medidasection2y3{
+    height: 100vh;
+}
 /* section 2 codigos */
 .section2{
     background-color: rgb(1,16,19) !important;
 }
-
 
 .logosection2{
     background-image: url(../assets/sushi\ loguitoi.png);
@@ -107,6 +150,24 @@ body{
     background-color: rgb(29,31,33);
 }
 
+.hr{
+    width: 500px;
+}
+.hrr{ 
+    height: 1px;
+    color: rgba(250, 250, 250, 0.952);
+}
+
+/* final pagina */
+.finalpagina{
+    background-image: url(../assets/susshifina.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 60vh;
+    filter: brightness(0.9);
+}
+
 /* footer codigo */
 
 footer{
@@ -114,6 +175,6 @@ footer{
 }
 
 .footerpics{
-    width: 30px;
-    height: 30px;
+    width: 2.5em;
+    height: 2.5em;
 }
